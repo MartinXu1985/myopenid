@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MyOP</title>
+  <style type="text/css">
+	fieldset{width:720px; margin: 0 auto;}
+	legend{font-weight:bold;}
+	label{float:left; width:125px; margin-left:10px;}
+	.left{margin-left:80px;}
+	.input{width:150px;}
+	span{color: #666666;}
+  </style>
+<script language=JavaScript>
+<!--
+
+function InputCheck(RegForm)
+{
+  if (RegForm.username.value == "")
+  {
+    alert("Username can not be empty!");
+    RegForm.username.focus();
+    return (false);
+  }
+  if (RegForm.password.value == "")
+  {
+    alert("Password can not be empty!");
+    RegForm.password.focus();
+    return (false);
+  }
+  if (RegForm.repass.value != RegForm.password.value)
+  {
+    alert("password not match!");
+    RegForm.repass.focus();
+    return (false);
+  }
+  if (RegForm.email.value == "")
+  {
+    alert("email can not be empty!");
+    RegForm.email.focus();
+    return (false);
+  }
+}
+
+//-->
+</script>
+</head>
+<div align="center">
+    <h1>My OpenID Provider</h1>
+</div>
+<div>
+<fieldset>
+<legend>User Sign Up</legend>
+<form name="RegForm" method="post" action="reg.php" onSubmit="return InputCheck(this)">
+<p>
+<label for="username" class="label">username:</label>
+<input id="username" name="username" type="text" class="input" />
+<span>(required，3-15 long char and number)</span>
+<p/>
+<p>
+<label for="password" class="label">password:</label>
+<input id="password" name="password" type="password" class="input" />
+<span>(required，no less than 6)</span>
+<p/>
+<p>
+<label for="repass" class="label">Confirm password:</label>
+<input id="repass" name="repass" type="password" class="input" />
+<p/>
+<p>
+<label for="email" class="label">Email:</label>
+<input id="email" name="email" type="text" class="input" />
+<span>(required)</span>
+<p/>
+    <p>
+        <label for="lastname" class="label">Last Name:</label>
+        <input id="lastname" name="lastname" type="text" class="input" />
+    <p/>
+    <p>
+    <label for="firstname" class="label">First Name:</label>
+    <input id="firstname" name="firstname" type="text" class="input" />
+    <p/>
+<p>
+<input type="submit" name="submit" value="  submit  " class="left" />
+</p>
+</form>
+</fieldset>
+</div>
+<div align="center">
+    <br/>
+    Already a Member? Click Here to <a href="login.html">Sign In</a>
+    <br/>
+    <br/>
+    Click Here <a href="https://tianjunxu.com/myopenid">go back to Homepage!</a>
+</div>
+<body>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[26-Mar-2015 05:51:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home4/martin/public_html/myopenid/user_reg/my.php on line 16
+[29-Mar-2015 20:19:35 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home4/martin/public_html/myopenid/user_reg/my.php on line 27
+[29-Mar-2015 20:20:49 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home4/martin/public_html/myopenid/user_reg/my.php on line 26
+[29-Mar-2015 20:20:49 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home4/martin/public_html/myopenid/user_reg/my.php on line 27
+[29-Mar-2015 20:21:58 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home4/martin/public_html/myopenid/user_reg/my.php on line 26
+[29-Mar-2015 20:21:58 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home4/martin/public_html/myopenid/user_reg/my.php on line 27
+[29-Mar-2015 20:26:44 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home4/martin/public_html/myopenid/user_reg/my.php on line 33
+[29-Mar-2015 20:40:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'delete' (T_STRING), expecting ',' or ';' in /home4/martin/public_html/myopenid/user_reg/my.php on line 34
+[29-Mar-2015 20:55:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE) in /home4/martin/public_html/myopenid/user_reg/delete.php on line 3
+[29-Mar-2015 20:57:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$username' (T_VARIABLE) in /home4/martin/public_html/myopenid/user_reg/delete.php on line 4
+[29-Mar-2015 20:58:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home4/martin/public_html/myopenid/user_reg/delete.php on line 4
+[29-Mar-2015 21:06:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'Are' (T_STRING), expecting ',' or ';' in /home4/martin/public_html/myopenid/user_reg/my.php on line 36
+[29-Mar-2015 21:29:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/martin/public_html/myopenid/user_reg/delete.php:4) in /home4/martin/public_html/myopenid/user_reg/delete.php on line 8
+[29-Mar-2015 21:34:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/martin/public_html/myopenid/user_reg/delete.php:4) in /home4/martin/public_html/myopenid/user_reg/delete.php on line 9
+[29-Mar-2015 21:40:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'RP' (T_STRING) in /home4/martin/public_html/myopenid/user_reg/my.php on line 10
+[29-Mar-2015 22:13:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT), expecting ',' or ';' in /home4/martin/public_html/myopenid/user_reg/my.php on line 96
+[29-Mar-2015 22:47:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ']' in /home4/martin/public_html/myopenid/user_reg/create.php on line 26
+[29-Mar-2015 22:49:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ']' in /home4/martin/public_html/myopenid/user_reg/create.php on line 25
